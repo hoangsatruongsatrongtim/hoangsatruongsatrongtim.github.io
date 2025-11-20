@@ -1,22 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+/* MENU */
 header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    padding: 15px 20px;
+    padding: 15px 40px;
     background: rgba(0,0,0,0.7);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
-.navbar {
-    display: flex;
-    gap: 25px;
-}
-
-.navbar a {
-    color: white;
-    font-size: 18px;
+.logo {
+    font-size: 22px;
     font-weight: bold;
+    color: orange;
+}
+
+/* Thanh menu */
+.navbar {
+  display: flex;
+  gap: 25px;
+  padding: 15px 40px;
+  background: #1a1a1a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Style cho từng nút */
+.navbar a {
+  color: white;
+  text-decoration: none; /* bỏ gạch chân */
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  transition: 0.3s;
+}
+
+/* Hiệu ứng hover */
+.navbar a:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+/* Để nội dung phía dưới không bị đè lên (vì nav fixed) */
+body {
+  padding-top: 80px;
 }
