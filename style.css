@@ -10,10 +10,10 @@ body {
     padding-top: 80px;  /* chừa chỗ cho header cố định */
     font-family: Arial, sans-serif;
     background:
-        linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
+        /*linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),*/
         url("background_1.jpg") no-repeat center center;
     background-size:cover;
-    filter: brightness(0.95) saturate(1.05);
+    /*filter: brightness(0.95) saturate(1.05);*/
     color: #333;
     /*line-height: 1.6;*/
 }
