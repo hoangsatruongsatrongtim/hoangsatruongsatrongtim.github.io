@@ -57,6 +57,16 @@ header nav a {
 header nav a:hover {
     color: orange;
     border-bottom: 2px solid orange;
+    animation: menuBounce 0.6s ease;
+}
+
+/* KEYFRAMES NẢY */
+@keyframes menuBounce {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-6px); }
+    50%  { transform: translateY(0); }
+    70%  { transform: translateY(-3px); }
+    100% { transform: translateY(0); }
 }
 
 
