@@ -114,3 +114,37 @@ header nav a:hover {
 html {
     scroll-behavior: smooth;
 }
+
+/* Nền trời xanh nhạt */
+.sky-background {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #b3e5fc 0%, #e1f5fe 40%, #ffffff 100%);
+  background-attachment: fixed;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Tạo các đám mây */
+.cloud {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.35); /* mây rất nhạt */
+  border-radius: 50%;
+  filter: blur(20px);
+}
+
+/* Các đám mây đặt sẵn vị trí */
+.cloud1 {
+  width: 200px; height: 80px;
+  top: 80px; left: 10%;
+}
+
+.cloud2 {
+  width: 160px; height: 60px;
+  top: 200px; left: 60%;
+}
+
+.cloud3 {
+  width: 250px; height: 90px;
+  top: 350px; left: 30%;
+}
