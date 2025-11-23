@@ -33,10 +33,15 @@ header {
 }
 
 /* LOGO */
-.logo {
+.logo a {
     font-size: 22px;
     font-weight: bold;
     color: orange;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decaration: underline;
 }
 
 /* MENU NAV */
