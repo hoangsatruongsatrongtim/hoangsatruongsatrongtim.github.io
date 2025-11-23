@@ -161,7 +161,7 @@ html {
 
 /* CỘT BÊN TRÁI */
 .left-poem {
-    flex: 1;
+    flex: 1.5;
     text-align: left;
     font-size: 18px;
     color: #222;
