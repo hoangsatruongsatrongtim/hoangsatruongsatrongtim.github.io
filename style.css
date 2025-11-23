@@ -163,7 +163,7 @@ html {
 .left-poem {
     flex: 1.5;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     color: #222;
     line-height: 1.6;
 }
@@ -171,7 +171,7 @@ html {
 /* CỘT BÊN PHẢI */
 .right-description {
     flex: 4;    
-    font-size: 25px;
+    font-size: 20px;
     color: #333;
     line-height: 1.7;
     text-align: justify;  
