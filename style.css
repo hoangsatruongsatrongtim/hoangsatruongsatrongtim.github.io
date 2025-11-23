@@ -154,7 +154,7 @@ html {
 .two-column {
     display: flex;
     gap: 50px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 50px auto;
     align-items: flex-start;
 }
