@@ -149,3 +149,27 @@ html {
   width: 250px; height: 90px;
   top: 350px; left: 30%;
 }
+
+/* Gioi thieu */
+.two-column {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.left-poem, .right-description {
+    flex: 1;
+}
+
+.left-poem {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.right-description {
+    font-size: 18px;
+    color: #444;
+}
