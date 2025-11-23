@@ -153,25 +153,27 @@ html {
 /* Gioi thieu */
 .two-column {
     display: flex;
-    gap: 40px;
-    padding: 40px;
+    gap: 50px;
     max-width: 1200px;
-    margin: auto;
+    margin: 50px auto;
+    align-items: flex-start;
 }
 
-.left-poem, .right-description {
+/* CỘT BÊN TRÁI */
+.left-poem {
     flex: 1;
     text-align: left;
-}
-
-.left-poem {
     font-size: 18px;
+    color: #222;
     line-height: 1.6;
-    color: #333;
 }
 
+/* CỘT BÊN PHẢI */
 .right-description {
+    flex: 1.5;    
     font-size: 18px;
-    color: #444;
-    text-align: center;
+    color: #333;
+    line-height: 1.7;
+    text-align: justify;  
 }
+
