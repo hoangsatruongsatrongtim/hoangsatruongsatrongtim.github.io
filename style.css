@@ -170,7 +170,7 @@ html {
 
 /* CỘT BÊN PHẢI */
 .right-description {
-    flex: 2.5;    
+    flex: 2;    
     font-size: 18px;
     color: #333;
     line-height: 1.7;
