@@ -161,6 +161,7 @@ html {
 
 .left-poem, .right-description {
     flex: 1;
+    text-align: "left";
 }
 
 .left-poem {
@@ -172,4 +173,5 @@ html {
 .right-description {
     font-size: 18px;
     color: #444;
+    text-align: "center";
 }
