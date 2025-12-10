@@ -167,6 +167,9 @@ header nav a:hover {
     padding-left: 140px; /* chỉnh số tùy ý */
 }
 
+.text-box {
+    width: 800px;     /* hoặc max-width */
+}
 
 /* SCROLL MƯỢT */
 html {
