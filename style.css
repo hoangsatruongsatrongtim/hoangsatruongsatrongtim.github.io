@@ -106,7 +106,7 @@ header nav a:hover {
     color: #0A3D62;
 }
 
-.section h2 {
+.section h3 {
     font-size: 28px;
     margin-bottom: 60px;
     margin-left: 120px;
@@ -154,7 +154,7 @@ header nav a:hover {
     bottom: 0;
 
     width: 95%;                 /* dài gần hết trang */
-    height: 3px;                /* độ dày gạch */
+    height: 1px;                /* độ dày gạch */
 
     background: linear-gradient(
         to right,
