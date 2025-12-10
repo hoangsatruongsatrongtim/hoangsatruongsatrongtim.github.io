@@ -168,7 +168,8 @@ header nav a:hover {
 }
 
 .text-box {
-    width: 800px;     /* hoặc max-width */
+    width: 1600px;     /* hoặc max-width */
+    line-height: 1.6;
 }
 
 /* SCROLL MƯỢT */
