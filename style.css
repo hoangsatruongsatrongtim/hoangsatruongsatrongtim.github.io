@@ -106,6 +106,13 @@ header nav a:hover {
     color: #0A3D62;
 }
 
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    color: #0A3D62;
+}
+
 .section-title {
     font-size: 32px;
     font-weight: bold;
