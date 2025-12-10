@@ -114,21 +114,27 @@ header nav a:hover {
     padding-bottom: 12px;
 }
 
+.section-title {
+    position: relative;
+    padding-bottom: 10px; /* khoảng cách giữa chữ và gạch */
+}
+
 .section-title::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 80px;        /* độ dài gạch */
-    height: 3px;        /* độ dày gạch */
-    background: #1B4F72;
-    border-radius: 2px;
+
+    width: 95%;                 /* dài gần hết trang */
+    height: 3px;                /* độ dày gạch */
+
+    background: linear-gradient(
+        to right,
+        #1b4f72,                /* màu đậm lúc đầu */
+        transparent             /* càng về cuối càng mờ dần */
+    );
 }
 
-.section p {
-    font-size: 17px;
-    color: #ccc;
-}
 
 
 /* SCROLL MƯỢT */
