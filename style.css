@@ -142,6 +142,27 @@ header nav a:hover {
     );
 }
 
+.section-titlev2 {
+    position: relative;
+    padding-bottom: 10px; /* khoảng cách giữa chữ và gạch */
+}
+
+.section-titlev2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 95%;                 /* dài gần hết trang */
+    height: 3px;                /* độ dày gạch */
+
+    background: linear-gradient(
+        to right,
+        #000000,                /* màu đậm lúc đầu */
+        transparent             /* càng về cuối càng mờ dần */
+    );
+}
+
 .content {
     padding-left: 140px; /* chỉnh số tùy ý */
 }
