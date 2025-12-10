@@ -135,6 +135,9 @@ header nav a:hover {
     );
 }
 
+.content {
+    padding-left: 140px; /* chỉnh số tùy ý */
+}
 
 
 /* SCROLL MƯỢT */
