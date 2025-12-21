@@ -24,19 +24,31 @@ body {
 /* ================= HEADER ================= */
 nav ul {
     display: flex;
-    gap: 25px;
+    flex-wrap: nowrap;   /* KHÔNG cho xuống dòng */
 }
 
 @media (max-width: 768px) {
+
+    header {
+        padding: 12px 16px;   /* header thấp hơn */
+    }
+
+    .logo {
+        font-size: 16px;      /* tiêu đề nhỏ lại */
+    }
+
     nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
+        gap: 10px;            /* giảm khoảng cách */
     }
 
     nav a {
-        font-size: 16px;
-        padding: 8px 0;
+        font-size: 13px;      /* chữ menu nhỏ lại */
+        padding: 4px 6px;
+        white-space: nowrap;  /* không cho xuống dòng */
+    }
+
+    body {
+        padding-top: 60px;    /* QUAN TRỌNG: khớp chiều cao header */
     }
 }
 
