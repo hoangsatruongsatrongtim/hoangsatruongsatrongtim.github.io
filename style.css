@@ -167,7 +167,8 @@ header nav a:hover {
 }
 
 .news-image figcaption {
-    font-size: 14px;
+    font-size: 10px;
+    text-align: center;
     color: #ccc;   
     margin-top: 8px;
     font-style: italic;
