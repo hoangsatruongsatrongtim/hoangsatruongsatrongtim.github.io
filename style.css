@@ -158,6 +158,24 @@ header nav a:hover {
     line-height: 1.6;
 }
 
+.image-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-box figcaption {
+    font-size: 14px;
+    color: #ccc;        /* chữ nhỏ, nhạt như báo */
+    margin-top: 8px;
+    font-style: italic; /* giống ảnh bạn gửi */
+}
+
+
 /* ================= SKY BACKGROUND ================= */
 
 .sky-background {
