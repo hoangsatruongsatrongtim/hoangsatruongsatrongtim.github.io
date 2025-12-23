@@ -166,13 +166,14 @@ header nav a:hover {
     margin: 20px auto;
 }
 
-.news-image figcaption {
+.caption {
     font-size: 10px;
+    color: #ccc;
     text-align: center;
-    color: #ccc;   
-    margin-top: 8px;
+    margin-top: 6px;
     font-style: italic;
 }
+
 
 /* ================= SKY BACKGROUND ================= */
 
