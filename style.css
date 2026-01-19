@@ -175,11 +175,9 @@ header nav a:hover {
 }
 
 .video-wrapper {
-    max-width: 800px;       /* Giới hạn chiều rộng desktop */
-    margin: 20px auto;      /* Căn giữa */
-    position: relative;
-    padding-bottom: 56.25%; /* Tỉ lệ 16:9 */
-    height: 0;
+    max-width: 1200px;
+    width: 100%;
+
 }
 
 .video-wrapper iframe {
@@ -187,7 +185,7 @@ header nav a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 50%;
     border: none;
 }
 
