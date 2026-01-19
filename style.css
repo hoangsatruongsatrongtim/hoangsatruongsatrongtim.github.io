@@ -174,6 +174,23 @@ header nav a:hover {
     font-style: italic;
 }
 
+.video-wrapper {
+    max-width: 800px;       /* Giới hạn chiều rộng desktop */
+    margin: 20px auto;      /* Căn giữa */
+    position: relative;
+    padding-bottom: 56.25%; /* Tỉ lệ 16:9 */
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 
 /* ================= SKY BACKGROUND ================= */
 
