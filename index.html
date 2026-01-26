@@ -12,6 +12,23 @@
 
 
 </head>
+
+<script>
+const video = document.getElementById('myVideo');
+
+window.addEventListener('scroll', () => {
+  if (!video) return;
+
+  const rect = video.getBoundingClientRect();
+
+  // Khi video ra khỏi màn hình
+  if (rect.bottom < 0 || rect.top > window.innerHeight) {
+    video.pause();
+  }
+});
+</script>
+
+    
 <body class="sky-background">
 
     <div class="cloud cloud1"></div>
@@ -63,7 +80,7 @@
     <br>
     <div class="content text-box" style="display:flex; justify-content:center;">
         
-        <video controls style="max-width:100%; height:auto;">
+        <video id="myVideo" controls style="max-width:100%; height:auto;">
             <source src="videos/vi-tri-dia-li.mp4" type="video/mp4">
         </video>
                 
@@ -367,7 +384,7 @@
     <br>
     <div class="content text-box" style="display:flex; justify-content:center;">
     
-        <video controls style="max-width:100%; height:auto;">
+        <video id="myVideo" controls style="max-width:100%; height:auto;">
             <source src="videos/cuoc-song-o-dao.mp4" type="video/mp4">
         </video>
             
