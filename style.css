@@ -174,30 +174,24 @@ header nav a:hover {
     font-style: italic;
 }
 
-.video-wrapper {
+.text-box1 {
     max-width: 1200px;
     width: 100%;
-
+    line-height: 1.6;
+    margin: 0 auto;
 }
 
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+/* Khung video */
+.video-wrapper {
+    max-width: 800px;   /* video nhỏ hơn text-box */
+    margin: 20px auto;  /* căn giữa */
+}
+
+/* Video responsive */
+.video-wrapper video {
     width: 100%;
-    height: 30%;
-    border: none;
-}
-
-.video-container {
-  max-width: 800px;
-  margin: 20px auto;
-}
-
-.video-container video {
-  width: 100%;
-  height: auto;
-  display: block;
+    height: auto;
+    display: block;
 }
 
 
