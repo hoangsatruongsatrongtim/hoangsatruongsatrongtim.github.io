@@ -189,6 +189,18 @@ header nav a:hover {
     border: none;
 }
 
+.video-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 
 /* ================= SKY BACKGROUND ================= */
 
