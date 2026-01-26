@@ -14,17 +14,19 @@
 </head>
 
 <script>
-const video = document.getElementById('myVideo');
+document.addEventListener("DOMContentLoaded", () => {
+    const video = document.getElementById("myVideo");
 
-window.addEventListener('scroll', () => {
-  if (!video) return;
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (!entry.isIntersecting) {
+                video.pause();
+            }
+        },
+        { threshold: 0.5 } // ra khỏi 50% là dừng
+    );
 
-  const rect = video.getBoundingClientRect();
-
-  // Khi video ra khỏi màn hình
-  if (rect.bottom < 0 || rect.top > window.innerHeight) {
-    video.pause();
-  }
+    observer.observe(video);
 });
 </script>
 
