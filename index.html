@@ -30,6 +30,23 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const video = document.getElementById("myVideo1");
+
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (!entry.isIntersecting) {
+                video.pause();
+            }
+        },
+        { threshold: 0.5 } // ra khỏi 50% là dừng
+    );
+
+    observer.observe(video);
+});
+</script>
+
     
 <body class="sky-background">
 
@@ -387,7 +404,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <div class="text-box">
         <div class="video-wrapper">
-        <video id="myVideo" controls>
+        <video id="myVideo1" controls>
             <source src="videos/cuoc-song-o-dao.mp4" type="video/mp4">
         </video>
         </div>
